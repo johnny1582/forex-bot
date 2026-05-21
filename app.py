@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "DQ2HOOSEVHP7MZ7R"
+API_KEY = "YUE9FU9GUN90LBOP"
 
 def get_price():
 
@@ -14,7 +14,7 @@ def get_price():
             "function=FX_INTRADAY"
             "&from_symbol=EUR"
             "&to_symbol=USD"
-            "&interval=5min"
+            "&interval=30min"
             f"&apikey={API_KEY}"
         )
 
