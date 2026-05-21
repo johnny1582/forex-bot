@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Forex Trading Bot</title>
+
+<style>
+
+body{
+background:#111;
+color:white;
+font-family:Arial;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.box{
+background:#222;
+padding:30px;
+border-radius:20px;
+text-align:center;
+width:320px;
+box-shadow:0 0 20px rgba(0,255,255,0.3);
+}
+
+h1{
+color:cyan;
+}
+
+.signal{
+font-size:40px;
+margin-top:20px;
+font-weight:bold;
+color:lime;
+}
+
+.price{
+font-size:28px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Forex Trading Bot</h1>
+
+<h2>EUR/USD</h2>
+
+<p>Current Price</p>
+
+<div class="price">
+
+{{ price }}
+
+</div>
+
+<div class="signal">
+
+{{ signal }}
+
+</div>
+
+</div>
+
+</body>
+
+</html>
